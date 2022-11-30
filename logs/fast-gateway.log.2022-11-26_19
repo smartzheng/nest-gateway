@@ -1,0 +1,10 @@
+Info | 2022-11-26 18:46:00.262 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 18:46:00.271 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 18:46:06.679 PM | req-1 | [ - POST - /feishu/sendMessage] | incoming request
+Info | 2022-11-26 18:46:07.822 PM | req-1 | {"statusCode":201} | request completed
+Info | 2022-11-26 18:46:30.683 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 18:46:30.687 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 18:46:42.150 PM | req-1 | [ - GET - /] | incoming request
+Info | 2022-11-26 18:46:42.156 PM | req-1 | {"statusCode":404} | request completed
+Info | 2022-11-26 18:46:42.567 PM | req-2 | [ - GET - /favicon.ico] | incoming request
+Info | 2022-11-26 18:46:42.570 PM | req-2 | {"statusCode":404} | request completed

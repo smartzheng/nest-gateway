@@ -6,8 +6,9 @@ import { TransformInterceptor } from './common/interceptors/transform.intercepto
 import { AllExceptionFilter } from './common/exceptions/base.exception.filter'
 import { HttpExceptionFilter } from './common/exceptions/http.exception.filter'
 import { generateDocument } from './doc'
-import fastify from "fastify";
 import { FastifyLogger } from './common/logger';
+import fastifyCookie from '@fastify/cookie';
+import fastify from "fastify";
 // import ioc from '../ioc'
 declare const module: any
 // import { NestExpressApplication } from '@nestjs/platform-express'
@@ -15,12 +16,16 @@ declare const module: any
 // 应用程序的入口文件，它使用核心函数 NestFactory 来创建 Nest 应用程序的实例。
 async function bootstrap() {
   // const app = await NestFactory.create<NestExpressApplication>(AppModule)
+	const fastifyInstance = fastify({
+		logger: FastifyLogger,
+	})
 	const app = await NestFactory.create<NestFastifyApplication>(
 		AppModule,
-		new FastifyAdapter({
-			logger: FastifyLogger
-		})
+		new FastifyAdapter(fastifyInstance)
 	)
+	await app.register(fastifyCookie, {
+		secret: 'my-secret', // for cookies signature
+	});
 	app.enableVersioning({
 		defaultVersion: [VERSION_NEUTRAL, '1', '2'],
 		type: VersioningType.URI

@@ -1,0 +1,18 @@
+Info | 2022-11-30 15:55:58.771 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-30 15:55:58.776 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-30 15:56:50.884 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-11-30 15:56:50.997 PM | req-2 | {"statusCode":200} | request completed
+Info | 2022-11-30 15:56:51.002 PM | req-5 | {"statusCode":200} | request completed
+Info | 2022-11-30 15:56:51.026 PM | req-4 | {"statusCode":200} | request completed
+Info | 2022-11-30 15:56:51.055 PM | req-3 | {"statusCode":200} | request completed
+Info | 2022-11-30 15:56:52.096 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-11-30 15:56:57.149 PM | req-7 | [ - POST - /feishu/getUserToken] | incoming request
+Info | 2022-11-30 15:56:57.154 PM | req-7 | {"statusCode":200} | request completed
+Info | 2022-11-30 15:59:33.318 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-30 15:59:33.323 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-30 15:59:54.661 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-11-30 15:59:54.716 PM | req-2 | {"statusCode":200} | request completed
+Info | 2022-11-30 15:59:54.727 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-11-30 15:59:54.728 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-11-30 15:59:54.732 PM | req-5 | {"statusCode":304} | request completed
+Info | 2022-11-30 15:59:55.479 PM | req-6 | {"statusCode":304} | request completed

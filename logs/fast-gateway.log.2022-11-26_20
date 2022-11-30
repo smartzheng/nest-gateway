@@ -1,0 +1,34 @@
+Info | 2022-11-26 19:00:37.164 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 19:00:37.168 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 19:01:21.177 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 19:01:21.182 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 19:03:24.344 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 19:03:24.348 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 19:03:40.915 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-11-26 19:03:40.990 PM | req-2 | {"statusCode":200} | request completed
+Info | 2022-11-26 19:03:40.997 PM | req-3 | {"statusCode":304} | request completed
+Info | 2022-11-26 19:03:41.004 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-11-26 19:03:41.006 PM | req-5 | {"statusCode":304} | request completed
+Info | 2022-11-26 19:03:41.632 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-11-26 19:04:18.803 PM | req-7 | [ - POST - /feishu/getUserToken] | incoming request
+Info | 2022-11-26 19:04:19.276 PM | req-7 | {"statusCode":200} | request completed
+Info | 2022-11-26 19:14:48.311 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 19:14:48.314 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 19:14:48.364 PM | req-1 | {"statusCode":200} | request completed
+Info | 2022-11-26 19:14:48.525 PM | req-2 | {"statusCode":304} | request completed
+Info | 2022-11-26 19:14:48.581 PM | req-3 | {"statusCode":200} | request completed
+Info | 2022-11-26 19:14:48.586 PM | req-4 | {"statusCode":304} | request completed
+Info | 2022-11-26 19:14:48.587 PM | req-5 | {"statusCode":304} | request completed
+Info | 2022-11-26 19:14:49.148 PM | req-6 | {"statusCode":304} | request completed
+Info | 2022-11-26 19:15:28.601 PM | req-7 | [ - POST - /feishu/getUserToken] | incoming request
+Info | 2022-11-26 19:15:29.541 PM | req-7 | {"statusCode":201} | request completed
+Info | 2022-11-26 19:16:38.155 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 19:16:38.160 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 19:18:38.523 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 19:18:38.526 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 19:19:42.846 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 19:19:42.849 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 19:21:43.713 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 19:21:43.717 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000
+Info | 2022-11-26 19:22:31.760 PM | _logId_ | [-] | Server listening at http://[::1]:3000
+Info | 2022-11-26 19:22:31.764 PM | _logId_ | [-] | Server listening at http://127.0.0.1:3000

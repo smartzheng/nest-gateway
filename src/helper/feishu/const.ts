@@ -1,2 +1,11 @@
-export const APP_ID = 'cli_a3f9fcda7e795013'
-export const APP_SECRET = '9VIJ4AX4VPO1jpYDbSbhPWSWbfn424j7'
+/*
+ * @Author: Cookie
+ * @Description: 飞书环境变量
+ */
+
+import { getConfig } from "@/utils";
+
+const { FEISHU_CONFIG } = getConfig()
+
+export const APP_ID = FEISHU_CONFIG.FEISHU_APP_ID
+export const APP_SECRET = FEISHU_CONFIG.FEISHU_APP_SECRET
